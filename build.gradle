@@ -1,6 +1,7 @@
 plugins {
     id 'org.springframework.boot' version '2.1.4.RELEASE'
     id 'java'
+    id 'idea'
 }
 
 apply plugin: 'io.spring.dependency-management'
@@ -11,7 +12,7 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 bootJar {
-    mainClassName = 'hello.App'
+    mainClassName = 'com.jineric.spring_java_annotations'
 }
 
 repositories {
